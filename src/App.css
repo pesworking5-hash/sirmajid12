@@ -1,0 +1,256 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  background-color: #f8fafc;
+  text-align: left;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Navigation Bar */
+.navbar {
+  background-color: #0f172a;
+  color: #ffffff;
+  padding: 0.85rem 0;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.nav-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1.5rem;
+  position: relative;
+}
+
+.nav-brand {
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.nav-brand:hover {
+  opacity: 0.9;
+}
+
+.nav-brand h1 {
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: #ffffff !important;
+  letter-spacing: -0.5px;
+}
+
+.mobile-menu-toggle {
+  display: none;
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: #ffffff;
+  font-size: 1.5rem;
+  padding: 0.2rem 0.6rem;
+  border-radius: 6px;
+  cursor: pointer;
+  line-height: 1;
+}
+
+.nav-menu {
+  display: flex;
+  list-style: none;
+  gap: 0.8rem;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.nav-menu a {
+  color: #cbd5e1;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  padding: 0.4rem 0.75rem;
+  font-weight: 600;
+  font-size: 0.925rem;
+  border-radius: 6px;
+}
+
+.nav-menu a:hover {
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.nav-menu a.active {
+  color: #ffffff;
+  background: #2563eb;
+}
+
+/* Main Content */
+.main-content {
+  flex: 1;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+}
+
+/* Footer */
+.footer {
+  background-color: #0f172a;
+  color: #94a3b8;
+  text-align: center;
+  padding: 2rem 1rem;
+  margin-top: auto;
+  border-top: 1px solid #1e293b;
+}
+
+.footer-content p {
+  margin: 0.4rem 0;
+  font-size: 0.9rem;
+}
+
+/* Common Styles */
+.container {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.04);
+  border: 1px solid #e2e8f0;
+}
+
+h1 {
+  color: #0f172a;
+}
+
+.profile-info h1 {
+  color: #0f172a !important;
+  font-size: 2.8rem;
+  font-weight: 800;
+}
+
+.profile-info .title {
+  color: #2563eb !important;
+  font-size: 1.35rem;
+  font-weight: 700;
+}
+
+h2 {
+  color: #0f172a;
+  margin-bottom: 1rem;
+  border-bottom: 3px solid #2563eb;
+  padding-bottom: 0.5rem;
+}
+
+h3 {
+  color: #1e293b;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.button {
+  background-color: #2563eb;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #1d4ed8;
+}
+
+.education-timeline {
+  position: relative;
+  padding: 1rem 0;
+}
+
+.timeline-item {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  gap: 2rem;
+  margin: 1.5rem 0;
+  padding: 1.25rem;
+  background: #f8fafc;
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+}
+
+.timeline-year {
+  font-weight: 700;
+  color: #2563eb;
+}
+
+.timeline-content h4 {
+  margin-top: 0;
+  color: #0f172a;
+}
+
+.timeline-content p {
+  margin: 0.5rem 0 0 0;
+  color: #475569;
+}
+
+/* Responsive Mobile Design */
+@media (max-width: 768px) {
+  .nav-container {
+    padding: 0 1rem;
+  }
+
+  .mobile-menu-toggle {
+    display: block;
+  }
+
+  .nav-menu {
+    display: none;
+    width: 100%;
+    flex-direction: column;
+    gap: 0.4rem;
+    padding: 1rem 0 0.5rem 0;
+    border-top: 1px solid #1e293b;
+    margin-top: 0.8rem;
+    align-items: stretch;
+  }
+
+  .nav-menu.mobile-open {
+    display: flex;
+  }
+
+  .nav-menu a {
+    display: block;
+    text-align: center;
+    padding: 0.6rem 1rem;
+  }
+
+  .main-content {
+    padding: 1rem 0.75rem;
+  }
+
+  .container {
+    padding: 1.25rem;
+  }
+
+  .timeline-item {
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+  }
+}
