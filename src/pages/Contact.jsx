@@ -1,14 +1,14 @@
 export default function Contact() {
   return (
     <div className="container">
-      <h2>Contact Information</h2>
+      <h2 style={{ border: 'none', paddingBottom: 0, marginBottom: '0.5rem' }}>Contact Information</h2>
       
       <div style={{ marginTop: '2rem' }}>
         <div className="contact-info">
           <div className="contact-card">
             <h3>📧 Email</h3>
-            <p><strong>Primary:</strong> <a href="mailto:abdulmajiid@pieas.edu.pk">abdulmajiid@pieas.edu.pk</a></p>
-            <p><strong>Secondary:</strong> <a href="mailto:abdulmajiid@gmail.com">abdulmajiid@gmail.com</a></p>
+            <p><strong>Primary:</strong> <a href="mailto:abdulmajid@pieas.edu.pk">abdulmajid@pieas.edu.pk</a></p>
+            <p><strong>Secondary:</strong> <a href="mailto:abdulmajid@gmail.com">abdulmajid@gmail.com</a></p>
           </div>
 
           <div className="contact-card">
@@ -187,7 +187,7 @@ export default function Contact() {
           For any inquiries, collaboration opportunities, or research discussions, 
           please don't hesitate to reach out.
         </p>
-        <a href="mailto:abdulmajiid@pieas.edu.pk" className="button" style={{ marginTop: '1rem' }}>
+        <a href="mailto:abdulmajid@pieas.edu.pk" className="button" style={{ marginTop: '1rem' }}>
           Send Email
         </a>
       </div>
