@@ -14,7 +14,7 @@ export default function Students() {
 
     // PhD Completed (Past & Co-supervision)
     { id: 5, name: "Mohsin Sattar", degree: "PhD", status: "Completed", year: "2014 - 2019", topic: "Lung cancer classification with discriminant features of mutated genes using machine learning", role: "Supervisor (HEC Scholar)", inst: "AICenTch / PIEAS", email: "mohsin08@gmail.com" },
-    { id: 6, name: "Iqra Aqeel", degree: "PhD", status: "Completed", year: "2019 - 2024", topic: "Design of Intelligent Computational Models for Drug Repurposing", role: "Supervisor", inst: "DCIS PIEAS", email: "imraaqeel@gmail.com" },
+    { id: 6, name: "Imra Aqeel", degree: "PhD", status: "Completed", year: "2019 - 2024", topic: "Design of Intelligent Computational Models for Drug Repurposing", role: "Supervisor", inst: "DCIS PIEAS", email: "imraaqeel@gmail.com" },
     { id: 7, name: "S. Javed Gibran", degree: "PhD", status: "Completed", year: "2011 - 2017", topic: "Developing genetic programming based image denoising systems", role: "Supervisor (HEC Scholar)", inst: "NESCOM / PIEAS", email: "gibran.javed@gmail.com" },
     { id: 8, name: "Safdar Ali", degree: "PhD", status: "Completed", year: "2011 - 2015", topic: "Intelligent decision-making ensemble system for breast cancer prediction", role: "Supervisor", inst: "DGNFC / PIEAS", email: "safdarkotla@gmail.com" },
     { id: 9, name: "Nabeela Kauser", degree: "PhD", status: "Completed", year: "2010 - 2016", topic: "Machine-learning ensemble systems for image fusion", role: "Supervisor (HEC Scholar)", inst: "IQRA University / PIEAS", email: "nabeelaashraf@gmail.com" },
