@@ -14,7 +14,7 @@ export default function Contact() {
           <div className="contact-card">
             <h3>📱 Phone</h3>
             <p><strong>Office (PIEAS Exchange):</strong> 0512207381 ext. 3316</p>
-            <p><strong>Mobile:</strong> +92 336 5270716</p>
+            <p><strong>Mob No:</strong> <a href="tel:+923365270716" style={{ color: 'inherit', textDecoration: 'none' }}>+92-336-5270716</a></p>
           </div>
 
           <div className="contact-card">
