@@ -1,5 +1,22 @@
 node_modules/
 dist/
 .env
+.env.*
 *.local
 .DS_Store
+Thumbs.db
+
+# Scratch / temporary output files
+docx_output.txt
+*.log
+*.tmp
+*.bak
+
+# Editor directories
+.vscode/
+.idea/
+*.suo
+*.user
+
+# OS files
+desktop.ini
