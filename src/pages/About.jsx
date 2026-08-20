@@ -19,8 +19,8 @@ export default function About() {
           </p>
           <p>
             His research interests include Artificial Intelligence, Machine Learning, Pattern Recognition, Bioinformatics, 
-            Biomedical Engineering, and Image Processing. He has published over 50 international journal articles and 35 conference papers, 
-            along with 04 book chapters, with significant citations in reputable venues.
+            Biomedical Engineering, and Image Processing. He has published 65+ international journal and conference papers, 
+            along with 04 book chapters, achieving over 1,741 citations with an H-Index of 23 in reputable venues.
           </p>
         </div>
 
