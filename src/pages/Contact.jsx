@@ -7,14 +7,14 @@ export default function Contact() {
         <div className="contact-info">
           <div className="contact-card">
             <h3>📧 Email</h3>
-            <p><strong>Primary:</strong> <a href="mailto:abdulmajid@pieas.edu.pk">abdulmajid@pieas.edu.pk</a></p>
-            <p><strong>Secondary:</strong> <a href="mailto:abdulmajid@gmail.com">abdulmajid@gmail.com</a></p>
+            <p><strong>Primary:</strong> <a href="mailto:abdulmajiid@pieas.edu.pk">abdulmajiid@pieas.edu.pk</a></p>
+            <p><strong>Secondary:</strong> <a href="mailto:abdulmajiid@gmail.com">abdulmajiid@gmail.com</a></p>
           </div>
 
           <div className="contact-card">
             <h3>📱 Phone</h3>
-            <p><strong>Office (PIEAS Exchange):</strong> +92-51-48727</p>
-            <p><strong>Fax:</strong> +92-51-48600</p>
+            <p><strong>Office (PIEAS Exchange):</strong> 0512207381 ext. 3316</p>
+            <p><strong>Mobile:</strong> +92 336 5270716</p>
           </div>
 
           <div className="contact-card">
@@ -187,7 +187,7 @@ export default function Contact() {
           For any inquiries, collaboration opportunities, or research discussions, 
           please don't hesitate to reach out.
         </p>
-        <a href="mailto:abdulmajid@pieas.edu.pk" className="button" style={{ marginTop: '1rem' }}>
+        <a href="mailto:abdulmajiid@pieas.edu.pk" className="button" style={{ marginTop: '1rem' }}>
           Send Email
         </a>
       </div>
